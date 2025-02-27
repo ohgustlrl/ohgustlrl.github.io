@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul's Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      background-color: #fbf8f1;
+      text-align: center;
+      font-family: 'Noto Sans KR', serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      padding: 20px 0;
+      line-height: 1.5rem;
+      word-break: keep-all;
+    }
+
+    #wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 85%;
+      height: 95%;
+      border: 1px solid #000;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .bold {
+      font-weight: 600;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    main {
+      display: block;
+      height: 100%;
+    }
+
+    main>section {
+      margin-bottom: 20px;
+    }
+
+    section>h4 {
+      font-weight: 700;
+      font-size: 0.7rem;
+    }
+
+    .story {
+      font-size: 0.85rem;
+      font-weight: 400;
+    }
+
+    .menu-title {
+      font-weight: 600;
+    }
+
+    .descript {
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="wrap">
+    <header>
+      <h1 class="title">Paul's Dining</h1>
+      <p><br /></p>
+      <i>Dear.</i>
+      <p class="underline">이지연 님</p>
+    </header>
+    <main>
+      <section id="stroy">
+        <p class="story">반갑습니다. <i class="bold">Paul's Dining</i>의 Paul 셰프입니다.
+          Paul's Dining은
+          오직 단 한 사람, 단 한 번의 식사를 위해 탄생했습니다.
+          모든 요소들은 오직 오늘 하루만을 위해 며칠간 고민하고 공부하여 정해진 음식들로 요소들을 구성했습니다.
+          <br /><br />
+          비록 그 시간이 짧아 많은 것을 준비하지는 못했습니다. 다만 그 안에는 오늘을 위해 준비한 모든 것을 쏟아부었습니다.
+          <br /><br />
+          찰나의 시간이지만, 소중하고 즐거운 경험이 되시길 바랍니다.
+        </p>
+      </section>
+      <section id="amuse-bouche">
+        <h4>:::::::::: AMUSE BOUCHE ::::::::::</h4>
+        <p class="menu-title">Seafood Salad</p>
+        <span class="descript">어린 잎 채소, 흰살 생선, 오렌지, 래디쉬, 방울토마토, 처빌</span>
+        <p>&</p>
+        <p class="menu-title">Ceviche</p>
+        <span class="descript">엔다이브, 흰살 생선, 레몬, 참나물 페스토, 치즈</span>
+        <p>&</p>
+        <p class="menu-title">Chips</p>
+        <span class="descript">안남미, 그레이프 비네거, 아부리, 감태</span>
+      </section>
+      <section id="appetizer">
+        <h4>:::::::::::: APPETIZER ::::::::::::</h4>
+        <p class="menu-title">Row Fish</p>
+        <span class="descript">참돔, 청귤, 고추장, 와사비</span>
+      </section>
+      <section id="main">
+        <h4>::::::::::::::::: MAIN ::::::::::::::::</h4>
+        <p class="menu-title">Steak</p>
+        <span class="descript">No9 투쁠 한우 채끝, 감자 퓌레, 와일드 빌베리</span>
+      </section>
+      <section id="dessert">
+        <h4>:::::::::::::: DESSERT ::::::::::::::</h4>
+        <p class="menu-title">Gelato</p>
+        <span class="descript">오렌지, 애플망고</span>
+      </section>
+    </main>
+  </section>
+</body>
+
+</html>
